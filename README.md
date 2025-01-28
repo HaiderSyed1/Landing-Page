@@ -1,1 +1,1 @@
-This is a readme
+This is a basic landing page that can be changed for any needs.
