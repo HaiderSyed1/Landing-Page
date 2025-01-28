@@ -1,5 +1,8 @@
 body{
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .head {
@@ -12,7 +15,11 @@ body{
     background-color: #1F2937;
     padding-left: 250px;
     padding-right: 250px;
-    padding-bottom: 180px;
+    padding-bottom: 150px;
+    border: 2px #1F2937;
+    margin: 0;
+    width: 100vw;
+    box-sizing: border-box;
   }
 
 
@@ -21,8 +28,6 @@ body{
     background-color: #1F2937;
     flex-shrink: 0;
     justify-content: space-between;
-    /* padding-left: 100px;
-    padding-right: 100px; */
     padding-bottom: 100px;
     min-width: 0px;
 }
@@ -84,6 +89,7 @@ img {
     min-width: 200px;
     min-height: auto;
     object-fit: contain;
+    border-radius: 8px;
 }
 
 button{
@@ -96,7 +102,24 @@ button{
 }
 
 .sign{
+    
     padding: 10px 30px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.rand{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+#bar, #chili, #pepper, #saffron{
+    width: 300px;
+    height: 300px;
+}
+
+.text{
+    font-size: 18px;
 }
