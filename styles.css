@@ -1,0 +1,102 @@
+body{
+    font-family: Roboto;
+}
+
+.head {
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+  }
+
+  .opening{
+    background-color: #1F2937;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 180px;
+  }
+
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    flex-shrink: 0;
+    justify-content: space-between;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    padding-bottom: 100px;
+    min-width: 0px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    align-items: center;
+}
+
+a{
+    color: #D1D5DB; 
+    text-decoration: none;
+    gap: 16px;
+    font-size: 18px;
+}
+
+
+.awe{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+}
+
+.container-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    min-width: 0px;
+    /* border: 2px solid white; */
+}
+
+.begin-text{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    height: 100%;
+    align-items: flex-start;
+    align-self: flex-start;
+    gap: 16px;
+}
+
+.subtext{
+    color: #D1D5DB;
+    font-size: 18px;
+    margin: 0;
+    max-width: 500px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 45%;
+    min-width: 200px;
+    min-height: auto;
+    object-fit: contain;
+}
+
+button{
+    background-color: #3882F6;
+    color:white;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    
+}
+
+.sign{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
